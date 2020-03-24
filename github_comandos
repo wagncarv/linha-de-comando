@@ -1,0 +1,68 @@
+----LINHA DE COMANDO
+pwd -> mostra caminho
+-------------------------------------------------------------------------------------------------------
+----CRIAR NOVO REPOSITÓRIO NA LINHA DE COMANDO
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://www.github.com/wagnc/git.git
+git push -u origin master
+
+
+----USAR REPOSITÓRIO EXISTENTE
+git remote add origin https://www.github.com/wagnc/git.git
+git push -u origin master
+
+---------------------------------------------------------------------------------------------------
+----CONFIGURAR AMBIENTE git
+git config --global user.name "wagnc"
+git config --global user.email "wagncarv@gmail.com"
+git config --global -l (listar arquivos)
+
+--------------------------------------------------------------------------------------------------
+----NO Mac OS
+ls -la (listar diretório)
+git config --global -l (listar git)
+---------------------------------------------------------------------------------------------------
+
+----INICIANDO PROJETO
+--git init (inicilaizer repositório local .git)
+--git status (verificar arquivos gerenciados git)
+--git add <arquivo.extensão>
+--git discard --<arquivo.extensão> (descartar arquivo alterado)
+--git add <pasta, folder>/. (adicionar pasta e subpastas)
+--git add . (adiciona todos arquivos e pastas ao monitoramento)
+
+----REMOVER ARQUIVOS
+--git rm <nome-do-arquivo.extensão> -f
+--git rm <nome-da-pasta>/. -fr
+--MOVER RENOMEAR ARQUIVOS
+--git mv <nome-do-arquivo> <novo-local>
+--git mv <nome-do-arquivo> <novo-nome> (renomear)
+
+--ROLLBACK OPERAÇÕES
+--git checkout -- <nome-do-arquivo>
+
+--IGNORAR ARQUIVOS OU PASTAS
+-- .gitignore (criar este arquivo)
+-- adicionar pastas/arquivos a este arquivo .gitignore
+
+--COMMIT ARQUIVOS REPOSITÓRIO LOCAL
+--git commit -m "commit inicial do projeto"
+
+--COMMIT/PUSH ARQUIVOS REPOSITÓRIO REMOTO
+--git remote add origin https://github.com/wagncarv/git_estudos_repo.git (endereço repositório git)
+--git remote -v (verifica status da operação)
+--git pull origin master (enviar arquivos para o repositório github)
+-- OU git pull origin master --allow-unrelated-histories
+--git push origin master (enviar para o github branch master)
+
+--CLONAR REPOSITÓRIO
+--git clone
+
+--DOWNLOAD REPOSITÓRIO
+--efetuar download do zip
+
+
+
+
